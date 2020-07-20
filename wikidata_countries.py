@@ -1,6 +1,6 @@
 from SPARQLWrapper import SPARQLWrapper, JSON  # , TURTLE, RDF
 from typing import Dict
-from pprint import pprint
+from mediawikitools.wiki.actions import edit
 
 useragent = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) ' \
             'AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.47 ' \
@@ -33,3 +33,5 @@ results_wiki_list = [f"* {entry['countryName']['value']}" for entry in results]
 results_wiki_str = ("\n").join(results_wiki_list)
 print(results_wiki_str)
     # pprint(entry)
+edit(page='MediaWiki:Smw_allows_list_Country',
+     content=results_wiki_str)
