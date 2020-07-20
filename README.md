@@ -4,7 +4,7 @@ Details to access the wiki are in `wikitails.yml`
 * empty user and passwords: only give read access
 * if you add user and password MAKE SURE NOT TO COMMIT IT :p
    
-## use confIDent/mediawikitools
+### Use [confIDent/mediawikitools](https://github.com/TIBHannover/confiDent-mediawikitools/)
 Clone:
 * `git clone https://github.com/TIBHannover/confiDent-mediawikitools.git`
 * `cd confiDent-mediawikitools`
@@ -16,3 +16,5 @@ Install:
 
 
 
+### Test ask
+`python test_ask.py`
