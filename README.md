@@ -1,6 +1,6 @@
 # Misc scripts
 
-Details to access the wiki are in `wikitails.yml`
+Details to access the wiki are in `wikidetails.yml`
 * empty user and passwords: only give read access
 * if you add user and password MAKE SURE NOT TO COMMIT IT :p
    
